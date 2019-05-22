@@ -20,7 +20,7 @@ import top.defaults.colorpicker.ColorPickerView;
 public class MainActivity extends AppCompatActivity {
 
     private static final String SAVED_STATE_KEY_COLOR = "saved_state_key_color";
-    private static final int INITIAL_COLOR = 0xFFFF8000;
+    private static final int INITIAL_COLOR = 0x00FF00;
 
     @BindView(R.id.colorPicker) ColorPickerView colorPickerView;
     @BindView(R.id.pickedColor) View pickedColor;
